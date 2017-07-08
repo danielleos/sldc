@@ -1,0 +1,244 @@
+body {
+  height: 100%;
+  background: url('../images/background.jpg') rgb(255, 255, 255);
+  background-size: cover;
+  background-position: right bottom;
+  background-attachment: fixed;
+  font: 300 1em/1.5 'Roboto Condensed';
+  color: rgb(255, 255, 255);
+}
+
+h1 p {
+  margin-bottom: 1em;
+}
+
+.bda {
+  display: block;
+  position: relative;
+  z-index: 3;
+  width: 202px;
+  height: auto;
+  margin: 90px auto 0;
+  overflow: hidden;
+}
+
+.contact_us {
+  display: block;
+  float: left;
+  margin-left: 2.87598%;
+  padding-bottom: 14px;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(255, 255, 255);
+}
+
+.contact_us:hover,
+.gallery:hover,
+.links:hover,
+.news:hover,
+.practice_information:hover,
+.prices_schemes:hover,
+.team:hover,
+.treatment:hover {
+  border-bottom: 4px solid rgb(120, 251, 197);
+}
+
+.copyright {
+  float: left;
+  width: 21.3987473903%;
+  min-height: 31px;
+  margin-left: 34.44187%;
+  font-size: 0.875em;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.design {
+  display: block;
+  float: left;
+  width: 9.1858037578%;
+  min-height: 31px;
+  margin-left: 0.48767%;
+  font-size: 0.875em;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.design:hover {
+  font-weight: 400;
+  color: rgb(120, 251, 197);
+}
+
+.footer {
+  position: relative;
+  z-index: 2;
+  width: 958px;
+  height: 21px;
+  margin: 20px auto 0;
+}
+
+.hero {
+  position: relative;
+  z-index: 9;
+  width: 959px;
+  height: 228px;
+  margin: 172px auto 0;
+}
+
+.home {
+  display: block;
+  float: left;
+  margin-left: 4.34408%;
+  padding-bottom: 14px;
+  border-bottom: 4px solid rgb(120, 251, 197);
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(255, 255, 255);
+}
+
+.home:hover {
+  border-bottom: 4 solid rgb(120, 251, 197);
+}
+
+.image {
+  display: block;
+  float: left;
+  width: 226px;
+  height: auto;
+  margin-left: 81px;
+  overflow: hidden;
+}
+
+.intro {
+  float: left;
+  width: 306px;
+  min-height: 178px;
+  margin: 41px 0 0 8.64421%;
+  padding-left: 20px;
+  border-left: 4px solid rgb(120, 251, 197);
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 2em;
+  line-height: 1.4;
+  color: rgb(255, 255, 255);
+}
+
+.gallery,
+.links {
+  display: block;
+  float: left;
+  margin-left: 2.93132%;
+  padding-bottom: 14px;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(255, 255, 255);
+}
+
+.navbg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  width: 100%;
+  height: 59px;
+  margin: 0 auto;
+  background-color: rgb(1, 46, 53);
+}
+
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+  width: 960px;
+  height: 60px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.news {
+  display: block;
+  float: left;
+  margin-left: 2.91667%;
+  padding-bottom: 14px;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(255, 255, 255);
+}
+
+.practice_information {
+  display: block;
+  float: left;
+  margin-left: 2.90365%;
+  padding-bottom: 14px;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(255, 255, 255);
+}
+
+.prices_schemes {
+  display: block;
+  float: left;
+  margin-left: 2.86296%;
+  padding-bottom: 14px;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(255, 255, 255);
+}
+
+.team {
+  display: block;
+  float: left;
+  margin-left: 2.94434%;
+  padding-bottom: 14px;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(255, 255, 255);
+}
+
+.text {
+  float: left;
+  width: 470px;
+  min-height: 184px;
+  margin: 50px 0 0 1.97917%;
+  font-size: 1em;
+  color: rgb(255, 255, 255);
+}
+
+.treatment {
+  display: block;
+  float: left;
+  margin-left: 2.89714%;
+  padding-bottom: 14px;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(255, 255, 255);
+}
+
+.welcome {
+  position: relative;
+  z-index: 6;
+  width: 960px;
+  height: 271px;
+  margin: 122px auto 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.hero ._text {
+  float: left;
+  margin: 86px 0 0 82px;
+  font-size: 3.125em;
+  line-height: 0.08;
+  color: rgb(255, 255, 255);
+}
