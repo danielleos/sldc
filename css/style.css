@@ -281,11 +281,27 @@ doctor team
 .thumbnail {
 	border-radius: 0px;
 }
-.caption h3{
+.caption h3 {
     padding-bottom: 5px;
 }
-.caption p{
+.caption p {
     padding-bottom: 10px;
+}
+.carousel-inner .active.left {
+    left: -25%;
+}
+.carousel-inner .next {
+    left: 25%;
+}
+.carousel-inner .prev {
+    left: -25%;
+}
+.carousel-control {
+    width: 4%;
+}
+.carousel-control.left,.carousel-control.right {
+    margin-left: 15px;
+    background-image: none;
 }
 /***************************************
 testimonial
