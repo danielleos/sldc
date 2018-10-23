@@ -303,6 +303,13 @@ doctor team
     margin-left: 15px;
     background-image: none;
 }
+.people {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
 /***************************************
 testimonial
 ***************************************/
