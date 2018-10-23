@@ -403,57 +403,174 @@
   <section id="treatments" class="section-padding">
     <div class="container">
       <div class="row">
-        <div class="schedule-tab">
-          <div class="col-md-4 col-sm-4 bor-left">
+        <div class="col-md-12">
+          <h2 class="ser-title">Treatments & Pricing</h2>
+          <hr class="botm-line">
+        </div>
+        <div class="schedule-tab prices">
+          <div class="col-md-12">
             <div class="mt-boxy-color"></div>
-            <div class="medi-info">
-              <h3>Emergency Case</h3>
-              <p>I am text block. Edit this text from Appearance / Customize / Homepage header columns. Lorem ipsum dolor
-                sit amet, consectetur adipiscing elit. </p>
-              <a href="#" class="medi-info-btn">READ MORE</a>
+            <div class="medi-info-no-line">
+              <h3>Our Services</h3>
+              <p>We offer the full range of treatments including Sedation, Cosmetic Dentistry, Whitening, Bridges, Crowns & Veneers, Preventative Care and all types of denture work.</p>
+              <p>We particularly welcome anxious or phobic patients and take a sympathetic approach. Sedation is available if necessary on a private treatment basis. We have the services of hygienists and oral health educators.</p>
+              <br>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary modal-button" data-toggle="modal" data-target="#treatments-modal">
+                Read about treatment details
+              </button>
+              
+              <!-- Modal -->
+              <div class="modal fade" id="treatments-modal" tabindex="-1" role="dialog" aria-labelledby="modal-title"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h4 class="modal-title" id="modal-title">Treatments</h4>
+                    </div>
+                    <div class="modal-body treatment-modal">
+                      <h5>Hygienists</h5>
+                      <p>Our dental Hygienists are available for preventative treatment and oral hygiene advice. We offer a wide range of oral hygiene products at the practice.Hygienist appointments are only available on a private basis.</p><br>
+                      <h5>Orthodontics</h5>
+                      <p>Children requiring orthodontic treatment will be referred to an orthodontic specialist practice under NHS arrangements. Adults requiring orthodontic treatment can be referred on a private basis.</p><br>
+                      <h5>Endodontics</h5>
+                      <p>Following his long standing interest in this speciality, Dr David Blaen gained his MSc in Endodontology in 2012. He shares his time between us and an Endodontic Referral Practice in Manchester. David also treats patients on referrals from colleagues within our practice as well as from the local area. We use modern techniques and equipment such as a Dental Operating Microscope, which enables us to save many teeth that would otherwise have been lost. As important as technology is, looking after the patient with care and consideration will always remain our primary focus.</p><br>
+                      <h5>Childrens' Appointments</h5>
+                      <p>We ask parents to bring their children with them so that we can see them regularly to help them grow up free from dental disease. All children under the age of 16 must be accompanied by an adult.</p><br>
+                      <h5>Sedation</h5>
+                      <p>Most patients experience some level of anxiety when visiting the dentist. This is usually eased with a friendly, gently manner and will hopefully lead to a relaxed, trusting relationship with your dentist. All our dental team are experienced in dealing with anxious patients and we are happy to take things as slowly as necessary.</p>
+                      <p>We do realise however that some patients may need a little extra help. For those patients, we can offer Intravenous (IV) Conscious Sedation. If you are nervous about having dental treatment or you are having a procedure which may cause discomfort, IV sedation is an effective and safe treatment.</p>
+                      <a href="sldc-iv-sedation.pdf">Click to read more about IV sedation</a><br><br>
+                      <h5>Facial Aesthetics</h5>
+                      <p>Dr Carlie Betts carries out all the facial aesthetic treatments at SLDC . We offer a variety of facial aesthetic treatments but every treatment is tailored to each individual patient. Carlie prides herself on achieving a natural look to make you feel refreshed & confident. Being an experienced dentist gives her extensive knowledge of the facial form & underlying anatomy. She has undergone advanced training & only uses well-researched, clinically-approved products. Please book in for a detailed consultation where options & prices will be discussed.</p>
+                      <a href="sldc-facial_aesthetics.pdf">Click to read more about facial aesthetics</a><br><br>
+                      <h5>Implants & Cosmetic Work</h5>
+                      <p>These are usually offered on a Private basis only. For further information, please contact us.</p>
+                    </div>
+                    <div class="modal-footer treatment-modal">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div class="col-md-4 col-sm-4">
-            <div class="medi-info">
-              <h3>Emergency Case</h3>
-              <p>I am text block. Edit this text from Appearance / Customize / Homepage header columns. Lorem ipsum dolor
-                sit amet, consectetur adipiscing elit. </p>
-              <a href="#" class="medi-info-btn">READ MORE</a>
+            <div class="medi-info-no-line">
+              <h3>NHS Treatment</h3>
+              <table>
+                <tr>
+                  <td>Routine<br>(Examination, Diagnostic & Preventative)</td>
+                  <td>£18.80</td>
+                </tr>
+                <tr>
+                  <td>Routine<br>+ Additional treatments such as Fillings, Root Canal, or Extractions</td>
+                  <td>£51.30</td>
+                </tr>
+                <tr>
+                  <td>Routine<br>+ Extensive procedures such as Crowns, Dentures or Bridges</td>
+                  <td>£222.50</td>
+                </tr>
+                <tr>
+                  <td>Urgent Appointments</td>
+                  <td>£18.80</td>
+                </tr>
+              </table>
             </div>
           </div>
-          <div class="col-md-4 col-sm-4 mt-boxy-3">
-            <div class="mt-boxy-color"></div>
-            <div class="time-info">
-              <h3>Opening Hours</h3>
-              <table style="margin: 8px 0px 0px;" border="1">
+          <div class="col-md-8 col-sm-4">
+            <div class="medi-info-no-line" id="table-flow">
+              <h3>Private Treatment</h3>
+              <table>
                 <tbody>
                   <tr>
-                    <td>Monday - Friday</td>
-                    <td>8.00 - 17.00</td>
+                    <td>New Patient Examination</td>
+                    <td>£65.00</td>
                   </tr>
                   <tr>
-                    <td>Saturday</td>
-                    <td>9.30 - 17.30</td>
+                    <td>Routine<br>(Examination, Diagnostic & Preventative)</td>
+                    <td>£59.85</td>
                   </tr>
                   <tr>
-                    <td>Sunday</td>
-                    <td>9.30 - 15.00</td>
+                    <td>Hygiene</td>
+                    <td>From £36.00</td>
+                  </tr>
+                  <tr>
+                    <td>Silver Fillings</td>
+                    <td>From £65.00</td>
+                  </tr>
+                  <tr>
+                    <td>White Fillings</td>
+                    <td>From £85.00</td>
+                  </tr>
+                  <tr>
+                    <td>Extractions</td>
+                    <td>From £95.00</td>
+                  </tr>
+                  <tr>
+                    <td>Sedation</td>
+                    <td>£226.80</td>
+                  </tr>
+                  <tr>
+                    <td>Complex Root Fillings</td>
+                    <td>From £249.00</td>
+                  </tr>
+                  <tr>
+                    <td>Crowns</td>
+                    <td>From £495.00</td>
+                  </tr>
+                  <tr>
+                    <td>Veneers</td>
+                    <td>From £425.25</td>
+                  </tr>
+                  <tr>
+                    <td>Tooth Whitening</td>
+                    <td>£295.00</td>
+                  </tr>
+                  <tr>
+                    <td>Dental Implants</td>
+                    <td>From £2,200.00</td>
+                  </tr>
+                  <tr>
+                    <td>Dentures</td>
+                    <td>From £500.00</td>
+                  </tr>
+                  <tr>
+                    <td>Bridges</td>
+                    <td>From £495.00</td>
+                  </tr>
+                  <tr>
+                    <td>Mouth Guards</td>
+                    <td>£65.00</td>
+                  </tr>
+                  <tr>
+                    <td>Facial Aesthetics</td>
+                    <td>From £195.00</td>
                   </tr>
                 </tbody>
               </table>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="medi-info-no-line">
+              <h3>Payment</h3>
+              <p>You can pay cash or by credit/debit card including Visa, MasterCard & Maestro. Unfortunately, we do not accept
+              American Express. Denplan monthly payment schemes are available. If you are a member of Simply Health, or a private dental scheme, you may be able to claim reimbursements of dental fees.</p>
+              <p>You may qualify for free treatment under the NHS, so we will always endeavour to point this out to you if applicable.</p>
+              <p>If you have any questions, please speak to a member of our team for more information.</p>
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <!--treatments & pricing-->
+  <!--/ treatments & pricing-->
   <!--testimonial-->
   <section id="testimonial" class="section-padding">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h2 class="ser-title">see what patients are saying?</h2>
+          <h2 class="ser-title">see what patients are saying</h2>
           <hr class="botm-line">
         </div>
         <div class="col-md-4 col-sm-4">
@@ -496,69 +613,23 @@
     </div>
   </section>
   <!--/ testimonial-->
-  <!--cta 2-->
-  <section id="cta-2" class="section-padding">
-    <div class="container">
-      <div class=" row">
-        <div class="col-md-2"></div>
-        <div class="text-right-md col-md-4 col-sm-4">
-          <h2 class="section-title white lg-line">« A few words<br> about us »</h2>
-        </div>
-        <div class="col-md-4 col-sm-5">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a typek
-          <p class="text-right text-primary"><i>— Medilap Healthcare</i></p>
-        </div>
-        <div class="col-md-2"></div>
-      </div>
-    </div>
-  </section>
-  <!--cta-->
   <!--contact-->
   <section id="contact" class="section-padding">
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-6">
+          <iframe width="500" height="350" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=street%20lane%20dental%20centre&key=AIzaSyD4yTZepoWIYeoohfGA95zRKZrN2Z6ifxQ"
+            allowfullscreen></iframe>
+        </div>
+        <div class="col-md-6 col-sm-4">
           <h2 class="ser-title">Contact us</h2>
           <hr class="botm-line">
-        </div>
-        <div class="col-md-4 col-sm-4">
-          <h3>Contact Info</h3>
           <div class="space"></div>
-          <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>321 Awesome Street<br> New York, NY 17022</p>
+          <p><i class="fa fa-map-marker-alt fa-fw pull-left fa-2x"></i>Street Lane Dental Centre, 457 Street Lane,<br>Leeds, West Yorkshire, LS17 6HQ</p>
           <div class="space"></div>
-          <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i>info@companyname.com</p>
+          <p><i class="fa fa-envelope fa-fw pull-left fa-2x"></i><a href="mailto:info@streetlane-dental.co.uk">info@streetlane-dental.co.uk</a></p>
           <div class="space"></div>
-          <p><i class="fa fa-phone fa-fw pull-left fa-2x"></i>+1 800 123 1234</p>
-        </div>
-        <div class="col-md-8 col-sm-8 marb20">
-          <div class="contact-info">
-            <h3 class="cnt-ttl">Having Any Query! Or Book an appointment</h3>
-            <div class="space"></div>
-            <div id="sendmessage">Your message has been sent. Thank you!</div>
-            <div id="errormessage"></div>
-            <form action="" method="post" role="form" class="contactForm">
-              <div class="form-group">
-                <input type="text" name="name" class="form-control br-radius-zero" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group">
-                <input type="email" class="form-control br-radius-zero" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control br-radius-zero" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group">
-                <textarea class="form-control br-radius-zero" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                <div class="validation"></div>
-              </div>
-
-              <div class="form-action">
-                <button type="submit" class="btn btn-form">Send Message</button>
-              </div>
-            </form>
-          </div>
+          <p><i class="fa fa-phone fa-fw pull-left fa-2x"></i>0113 2689 696</p>
         </div>
       </div>
     </div>
@@ -569,38 +640,14 @@
     <div class="top-footer">
       <div class="container">
         <div class="row">
-          <div class="col-md-4 col-sm-4 marb20">
-            <div class="ftr-tle">
-              <h4 class="white no-padding">About Us</h4>
-            </div>
-            <div class="info-sec">
-              <p>Praesent convallis tortor et enim laoreet, vel consectetur purus latoque penatibus et dis parturient.</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-4 marb20">
-            <div class="ftr-tle">
-              <h4 class="white no-padding">Quick Links</h4>
-            </div>
-            <div class="info-sec">
-              <ul class="quick-info">
-                <li><a href="index.html"><i class="fa fa-circle"></i>Home</a></li>
-                <li><a href="#service"><i class="fa fa-circle"></i>Service</a></li>
-                <li><a href="#contact"><i class="fa fa-circle"></i>Appointment</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-4 marb20">
-            <div class="ftr-tle">
-              <h4 class="white no-padding">Follow us</h4>
-            </div>
-            <div class="info-sec">
-              <ul class="social-icon">
-                <li class="bglight-blue"><i class="fa fa-facebook"></i></li>
-                <li class="bgred"><i class="fa fa-google-plus"></i></li>
-                <li class="bgdark-blue"><i class="fa fa-linkedin"></i></li>
-                <li class="bglight-blue"><i class="fa fa-twitter"></i></li>
-              </ul>
-            </div>
+          <div class="col-md-12">
+            <h3 class="white">Useful Links</h3>
+            <ul class="quick-info">
+              <li><a href="https://www.gdc-uk.org/">General Dental Council (GDC)</a></li>
+              <li><a href="https://www.bda.org/">British Dental Association (BDA)</a></li>
+              <li><a href="https://www.cqc.org.uk/location/1-189033817">Care Quality Commission</a></li>
+              <li><a href="https://www.nhs.uk/Services/dentists/Overview/DefaultView.aspx?id=24771">NHS Choices</a></li>
+            </ul>
           </div>
         </div>
       </div>
@@ -632,6 +679,11 @@
   <script src="js/bootstrap.min.js"></script>
   <script src="js/custom.js"></script>
   <script src="contactform/contactform.js"></script>
+  <script>
+    $('#myModal').on('shown.bs.modal', function () {
+        $('#myInput').trigger('focus')
+      })
+  </script>
 
 </body>
 

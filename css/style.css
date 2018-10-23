@@ -24,7 +24,42 @@ q:before, q:after {
 }
 table {
 	border-collapse: collapse;
-	border-spacing: 0;
+    border-spacing: 0;
+    width: 100%;
+}
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		position: relative;
+		padding-left: 50%; 
+	}
+	
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
 }
 h1, h2, h3, h4, h5, h6
 {
@@ -32,8 +67,14 @@ h1, h2, h3, h4, h5, h6
 	font-weight: 600;
 	color: #000;
 }
-a, a:hover, a:focus, a:active{
+a {
     outline: none;
+    color: #0CB8B6;
+}
+
+a:hover, a:focus, a:active {
+    outline: none;
+    color: rgb(32, 118, 133);
 }
 
 .section-padding{
@@ -210,7 +251,17 @@ cta-1
 	float: left;
 }
 .medi-info{
-	border-right: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+.medi-info-no-line {
+    font-size: 14px;
+    padding: 20px;
+    color: #fff;
+}
+.medi-info-no-line h3 {
+    padding-bottom: 16px;
+    color: #fff;
+    font-weight: 600;
 }
 .medi-info, .time-info{
 	padding: 20px;
@@ -309,6 +360,39 @@ doctor team
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
+}
+/***************************************
+treatments
+***************************************/
+.prices {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-x: auto;
+}
+tr:hover {
+    background-color: rgba(3, 151, 149, 0.568);
+}
+.prices td + td {
+    text-align: right;
+}
+#table-flow {
+    column-count: 2;
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    width: 100%;
+}
+.treatment-modal {
+    color: #000;
+}
+.modal-button {
+    background-color: #0CB8B6;
+    border-color: #fff;
+}
+.modal-button:hover {
+    background-color: #325C6A;
+    border-color: #325C6A;
 }
 /***************************************
 testimonial
@@ -507,11 +591,18 @@ footer
 .quick-info li a{
     color: #fff;
 }
+
+.quick-info {
+    color: #fff;
+    list-style-type: circle;
+}
+
 .site-link, .site-link:hover, .site-link:focus
 {
-    color: #0cb8b6;
+    color: #fff;
     text-transform: none;
 }
+
 @media (min-width: 551px) and (max-width: 980px){
 
 }
