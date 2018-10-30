@@ -330,7 +330,13 @@ about
 doctor team
 ***************************************/
 .thumbnail {
-	border-radius: 0px;
+    border-radius: 0px;
+}
+.caption {
+    text-align: center;
+}
+.caption .modal-body {
+    text-align: left;
 }
 .caption h3 {
     padding-bottom: 5px;
