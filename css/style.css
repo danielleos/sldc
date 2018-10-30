@@ -4,6 +4,13 @@
     Author: BootstrapMade.com
     Author URL: https://bootstrapmade.com
 */
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
 
 body {
 	font-family: 'Allerta';
@@ -379,6 +386,9 @@ doctor team
 }
 .caption .modal-body {
     text-align: left;
+}
+.modal-open {
+    width: 100%;
 }
 .caption h3 {
     padding-bottom: 5px;
