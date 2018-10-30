@@ -222,6 +222,19 @@ banner
     color: #fff;
     margin: 0 auto;
 }
+.back-to-top a i {
+    text-align: center;
+    position: absolute;
+    bottom: 25px;
+    font-size: 38px;
+    color: #2C3E50;
+    margin: 0 auto;
+}
+.back-top-top-container {
+    background-color: #fff;
+    margin-top: 50px;
+    padding-top: 50px;
+}
 .text-primary i{
     padding-top: 8px;
     display: inline-block;
@@ -294,7 +307,7 @@ td {
 about
 ***************************************/
 #about{
-    background-color: rgba(238, 238, 238, 0.15);
+    background-color: #fff;
 }
 .lg-line{
 	line-height: 1.4;
