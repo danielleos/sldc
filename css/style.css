@@ -220,8 +220,8 @@ banner
 	background-color: RGBA(13, 70, 83, 0.78);
 	min-height: 780px;
 }
-.banner-info{
-	padding-top: 190px;
+.banner-info {
+    padding-top: 100px;
 }
 .banner-logo img{
 	display: inline-block;
