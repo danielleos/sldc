@@ -103,6 +103,7 @@ banner
 .navbar {
     margin-bottom: 0px;
     border: 0px;
+    width: 100%;
 }
 .navbar {
     border-radius: 0px;
@@ -115,6 +116,7 @@ banner
 .navbar-default {
     background-color: transparent;
     border: 0px;
+    width: 100%;
 }
 .navbar {
     border-radius: 0px;
@@ -126,10 +128,37 @@ banner
     font-size: 20px;
     font-weight: 900;
 }
+.navbar-brand span {
+    display: block;
+}
 
 .navbar-brand img {
-    padding-top: 2px;
-    width: 120px !important;
+    display: none;
+    margin: -20px;
+    height: 70px;
+    float: right;
+}
+@media (max-width: 992px) {
+    .navbar-brand img {
+        display: block;
+        margin: -20px;
+        height: 70px;
+        float: right;
+    }
+    .navbar-brand span {
+        display: none;
+    }
+}
+@media (max-width: 1200px) {
+    .navbar-brand img {
+        display: block;
+        margin: -20px;
+        height: 70px;
+        float: right;
+    }
+    .navbar-brand span {
+        display: none;
+    }
 }
 
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
