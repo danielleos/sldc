@@ -390,6 +390,12 @@ doctor team
 .modal-open {
     width: 100%;
 }
+.modal-close {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    color: #2C3E50;
+}
 .caption h3 {
     padding-bottom: 5px;
 }
