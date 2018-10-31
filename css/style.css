@@ -4,7 +4,9 @@
     Author: BootstrapMade.com
     Author URL: https://bootstrapmade.com
 */
-
+html {
+    overflow-x: hidden;
+}
 body {
 	font-family: 'Allerta';
 	line-height: 20px;
@@ -142,7 +144,7 @@ banner
     .navbar-brand img {
         display: block;
         margin: -20px;
-        height: 70px;
+        height: 100%;
         float: right;
     }
     .navbar-brand span {
@@ -548,6 +550,13 @@ footer
     height: 15px;
     line-height: 15px;
     text-align: left;
+}
+.links-title {
+    line-height: 1.5;
+}
+.links {
+    font-size: 20px;
+    line-height: 1.2;
 }
 .social-icon li {
     float: left;
