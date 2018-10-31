@@ -269,6 +269,15 @@ banner
     margin-top: 50px;
     padding-top: 50px;
 }
+.back-to-top:hover:after {
+    content: "Back To Top";
+    width: 100%;
+    position: absolute;
+    margin-left: -35px;
+    margin-top: -30px;
+    text-align: left;
+}
+
 .text-primary i{
     padding-top: 8px;
     display: inline-block;
@@ -449,16 +458,6 @@ doctor team
     border-radius: 100%;
     box-shadow: 0 4px 8px 0 rgba(150, 150, 150, 0.2), 0 6px 20px 0 rgba(158, 158, 158, 0.19);
 }
-
-.modal-open {
-    width: 100%;
-}
-.modal-close {
-    position: fixed;
-    right: 10px;
-    top: 10px;
-    color: #2C3E50;
-}
 /***************************************
 treatments
 ***************************************/
@@ -488,6 +487,11 @@ tr:hover {
     background-color: #0CB8B6;
     border-color: #fff;
 }
+/* @media only screen and (max-width: 500px) {
+    .modal-button {
+        max-width: 162px;
+    }
+} */
 .modal-button:hover {
     background-color: #325C6A;
     border-color: #325C6A;
@@ -496,10 +500,11 @@ tr:hover {
 testimonial
 ***************************************/
 #testimonial{
+    margin-top: 20px;
     background-color: #eee;
 }
 .testi-details {
-    background: #fff;
+    background: rgb(255, 255, 255);
     padding: 14px 24px;
     margin-bottom: 20px;
     box-shadow: 3px 3px 2px 0px rgba(0,0,0,0.18);
