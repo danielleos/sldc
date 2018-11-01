@@ -269,6 +269,15 @@ banner
     margin-top: 50px;
     padding-top: 50px;
 }
+.back-to-top:hover:after {
+    content: "Back To Top";
+    width: 100%;
+    position: absolute;
+    margin-left: -35px;
+    margin-top: -30px;
+    text-align: left;
+}
+
 .text-primary i{
     padding-top: 8px;
     display: inline-block;
@@ -449,16 +458,6 @@ doctor team
     border-radius: 100%;
     box-shadow: 0 4px 8px 0 rgba(150, 150, 150, 0.2), 0 6px 20px 0 rgba(158, 158, 158, 0.19);
 }
-
-.modal-open {
-    width: 100%;
-}
-.modal-close {
-    position: fixed;
-    right: 10px;
-    top: 10px;
-    color: #2C3E50;
-}
 /***************************************
 treatments
 ***************************************/
@@ -488,6 +487,11 @@ tr:hover {
     background-color: #0CB8B6;
     border-color: #fff;
 }
+/* @media only screen and (max-width: 500px) {
+    .modal-button {
+        max-width: 162px;
+    }
+} */
 .modal-button:hover {
     background-color: #325C6A;
     border-color: #325C6A;
@@ -495,11 +499,12 @@ tr:hover {
 /***************************************
 testimonial
 ***************************************/
-#testimonial{
+#reviews{
+    margin-top: 20px;
     background-color: #eee;
 }
 .testi-details {
-    background: #fff;
+    background: rgb(255, 255, 255);
     padding: 14px 24px;
     margin-bottom: 20px;
     box-shadow: 3px 3px 2px 0px rgba(0,0,0,0.18);
@@ -588,6 +593,9 @@ footer
 .links {
     font-size: 20px;
     line-height: 1.2;
+}
+.links-container {
+    margin-top: 50px;
 }
 .social-icon li {
     float: left;
@@ -685,4 +693,101 @@ footer
 .small-credits {
     font-size: 10px;
     line-height: 1;
+}
+
+/* ######################### */
+/* ######## Gallery ######## */
+/* ######################### */
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.gallery-container {
+  position: relative;
+  width: 100%;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+.mySlides img {
+    width: 100%;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.gallery-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.gallery-column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+  height: 100px;
+  width: 100%;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
 }
