@@ -701,7 +701,13 @@ footer
 * {
   box-sizing: border-box;
 }
-
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
 /* Position the image container (needed to position the left and right arrows) */
 .gallery-container {
   position: relative;
