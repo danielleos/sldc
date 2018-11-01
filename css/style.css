@@ -499,7 +499,7 @@ tr:hover {
 /***************************************
 testimonial
 ***************************************/
-#testimonial{
+#reviews{
     margin-top: 20px;
     background-color: #eee;
 }
@@ -693,4 +693,46 @@ footer
 .small-credits {
     font-size: 10px;
     line-height: 1;
+}
+
+/* ######################### */
+/* ######## Gallery ######## */
+/* ######################### */
+.gallery img {
+    height: 300px;
+    padding: 10px;
+}
+
+.photo-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+/* Create four equal columns that sits next to each other */
+.photo-column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
