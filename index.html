@@ -13,8 +13,7 @@
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Candal">
   <link href='https://fonts.googleapis.com/css?family=Allerta' rel='stylesheet'>
   <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
-    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <!-- =======================================================
@@ -359,7 +358,9 @@
                       </div>
                       <div class="modal-body about-stephanie-modal">
                         <img src="img/blank.png" alt="Ms Stephanie Blain" class="modal-img">
-                        <p>NEEDS UPDATING</p>
+                        <p>Stephanie graduated from Newcastle University in 2011. After training she decided to move back to Yorkshire and joined the practice in 2015.</p>
+                        <p>In 2016 she decided to gain extra qualifications in Facial Aesthetics and since has expanded her knowledge and skills by attending courses on Harley Street. In her spare time shes plays netball twice a week and has a lovely Bedlington Terrier called Lenny that needs walking a lot!</p>
+                        <p>Stephanie works <u>Mondays</u>, <u>Tuesdays</u>, <u>Thursdays</u> and <u>Fridays</u>, but soon will be going on maternity leave. She will be coming back in 2020.</p>
                       </div>
                       <div class="modal-footer treatment-modal">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -1089,24 +1090,66 @@
           <h2 class="ser-title">Gallery</h2>
           <hr class="botm-line">
         </div>
-        <div class="col-md-12 gallery">
-          Placeholder
-          <!-- <div class="photo-row">
-            <div class="photo-column">
+        <div class="col-md-12">
+          <!-- Container for the image gallery -->
+          <div class="gallery-container">
+            <!-- Full-width images with number text -->
+            <div class="mySlides">
+              <div class="numbertext">1 / 6</div>
               <img src="img/gallery/front.jpg">
-              <img src="img/gallery/waiting-room-1.jpg">
             </div>
-            <div class="photo-column">
-              <img src="img/gallery/sterlisation-room.jpg">
-              <img src="img/gallery/waiting-room-2.jpg">
-            </div>
-            <div class="photo-column">
+            <div class="mySlides">
+              <div class="numbertext">2 / 6</div>
               <img src="img/gallery/surgery2.jpg">
             </div>
-            <div class="photo-column">
+            <div class="mySlides">
+              <div class="numbertext">3 / 6</div>
               <img src="img/gallery/surgery3.jpg">
             </div>
-          </div> -->
+            <div class="mySlides">
+              <div class="numbertext">4 / 6</div>
+              <img src="img/gallery/waiting-room-1.jpg">
+            </div>
+            <div class="mySlides">
+              <div class="numbertext">5 / 6</div>
+              <img src="img/gallery/waiting-room-2.jpg">
+            </div>
+            <div class="mySlides">
+              <div class="numbertext">6 / 6</div>
+              <img src="img/gallery/sterlisation-room.jpg">
+            </div>
+          
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          
+            <!-- Image text -->
+            <div class="caption-container">
+              <p id="caption"></p>
+            </div>
+          
+            <!-- Thumbnail images -->
+            <div class="gallery-row">
+              <div class="gallery-column">
+                <img class="demo cursor" src="img/gallery/front.jpg" onclick="currentSlide(1)" alt="Our Practice">
+              </div>
+              <div class="gallery-column">
+                <img class="demo cursor" src="img/gallery/surgery2.jpg" onclick="currentSlide(2)" alt="Surgery 2">
+              </div>
+              <div class="gallery-column">
+                <img class="demo cursor" src="img/gallery/surgery3.jpg" onclick="currentSlide(3)" alt="Surgery 3">
+              </div>
+              <div class="gallery-column">
+                <img class="demo cursor" src="img/gallery/waiting-room-1.jpg" onclick="currentSlide(4)" alt="Our Waiting Room">
+              </div>
+              <div class="gallery-column">
+                <img class="demo cursor" src="img/gallery/waiting-room-2.jpg" onclick="currentSlide(5)" alt="Our Waiting Room">
+              </div>
+              <div class="gallery-column">
+                <img class="demo cursor" src="img/gallery/sterlisation-room.jpg" onclick="currentSlide(6)" alt="Our Sterilisation Room">
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
