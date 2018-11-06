@@ -60,10 +60,12 @@ function showSlides(n) {
     }
   });
 
+  // modals
   $('#myModal').on('shown.bs.modal', function () {
     $('#myInput').trigger('focus')
   });
 
+  // gallery carousel
   $('.gallery').carousel({
     interval: 2000
   })
