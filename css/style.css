@@ -636,7 +636,7 @@ footer
 
 .quick-info {
     color: #fff;
-    list-style-type: circle;
+    list-style-type: disc;
 }
 
 .site-link, .site-link:hover, .site-link:focus
@@ -796,4 +796,8 @@ footer
 .active,
 .demo:hover {
   opacity: 1;
+}
+
+.bullet-points ul {
+    list-style-type: disc;
 }
