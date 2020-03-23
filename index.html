@@ -54,6 +54,62 @@
           </div>
         </div>
       </nav>
+      <div class="modal fade" id="covid-modal" tabindex="-1" role="dialog" aria-labelledby="modal-title"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title" id="modal-title">Urgent Announcement</h4>
+              <button type="button" class="btn btn-secondary modal-close" data-dismiss="modal">Close</button>
+            </div>
+            <div class="modal-body covid-modal">
+              <p>Dear Patient,</p>
+              <p>Covid 19 is affecting all our lives in a way we could not have contemplated even 2 weeks ago. We have delayed writing to you in relation to any change in arrangements at the Practice simply because things are changing daily and at times hourly.</p>
+              <p>As of today, Monday 23rd March Street Lane Dental Centre are moving to see patients for Emergency treatment only.</p>
+              <p><b>PLEASE DO NOT ATTEND THE PRACTICE IF YOU HAVE OR HAVE SYMPTOMS OF COVID-19. If you do, you will be asked to leave immediately.</b></p>
+              <p>NHS Commissioners, our regulator and the Chief Dental Officer still only advise a reduction in the number of patients we see and to not provide certain treatments. However our Professional body, the British Dental Association (BDA) backs the position we are adopting.</p>
+              <p>We hope you can understand our decision as we support social distancing for our teams and our
+              patients.</p>
+              <p><b>All appointments are now cancelled until further notice.</b></p>
+              <p>Please contact the practice if:
+                <ol>
+                  <li>You require emergency treatment.</li>
+                  <li>You need advice or reassurance.</li>
+                  <li>You need a treatment completing such as a crown or denture fit – your original appointment will be cancelled but we will try to accommodate completing your treatment by arrangement.</li>
+                  <li>Separate arrangements are being made on a case by case basis for Invisalign and Implant patients and you will be contacted directly by the practice.</li>
+                </ol>
+              </p>
+              <p>Our senior dental team will be available to give telephone advice if your query cannot be
+              managed by our reception team – you will be called back as soon as possible.</p>
+              <p><b>In the interests of safety, OUR DOOR WILL BE LOCKED – PLEASE RING THE PRACTICE
+              FOR ADVICE OR AN APPOINTMENT.</b></p>
+              <p>We are working to keep our team together and will do all we can continue your treatment when
+              this situation is over.</p>
+              <p>In the meantime please follow Government advice on social distancing.
+              Do stay safe and our very best wishes to you and your family in these difficult times.</p>
+              
+              <p><b>Joanna O’Sullivan & Rachel Barrett</b><br>
+              Owners of Street Lane Dental Centre</p>
+            </div>
+            <div class="modal-footer treatment-modal">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="modal hide fade" id="covid19">
+        <div class="modal-header">
+          <a class="close" data-dismiss="modal">×</a>
+          <h3>Modal header</h3>
+        </div>
+        <div class="modal-body">
+          <p>One fine body…</p>
+        </div>
+        <div class="modal-footer">
+          <a href="#" class="btn">Close</a>
+          <a href="#" class="btn btn-primary">Save changes</a>
+        </div>
+      </div> -->
       <div class="container">
         <div class="row">
           <div class="banner-info">
@@ -1432,6 +1488,11 @@
   <script src="js/jquery.easing.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/custom.js"></script>
+  <script type="text/javascript">
+    $(window).on('load', function () {
+      $('#covid-modal').modal('show');
+    });
+  </script>
 
 </body>
 
