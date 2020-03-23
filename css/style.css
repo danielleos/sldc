@@ -801,3 +801,17 @@ footer
 .bullet-points ul {
     list-style-type: disc;
 }
+
+/* COVID-19 MODAL */
+.covid-modal {
+    background-color: rgba(3, 151, 149);
+    color: white;
+}
+
+.covid-modal .modal-header {
+    background-color: rgba(3, 151, 149);
+}
+
+.covid-modal ol {
+    list-style-type: decimal;
+}
