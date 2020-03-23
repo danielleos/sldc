@@ -802,7 +802,9 @@ footer
     list-style-type: disc;
 }
 
-/* COVID-19 MODAL */
+/* ########################### */
+/* ##### COVID 19 STUFF ###### */
+/* ########################### */
 .covid-modal {
     background-color: rgba(3, 151, 149);
     color: white;
@@ -814,4 +816,20 @@ footer
 
 .covid-modal ol {
     list-style-type: decimal;
+}
+
+/***************************************
+banner
+***************************************/
+.announcement-container {
+    margin: 0;
+}
+.announcement-banner-header {
+    background-color: rgb(255, 217, 0);
+    padding: 10px 0;
+    transition: all 0.3s;
+    width: 100%;
+}
+.announcement-banner-header a {
+    color: rgb(255, 38, 0);
 }
