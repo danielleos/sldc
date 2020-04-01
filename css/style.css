@@ -806,6 +806,7 @@ footer
 /* ##### COVID 19 STUFF ###### */
 /* ########################### */
 .covid-modal {
+    display: block;
     background-color: rgba(3, 151, 149);
     color: white;
 }
@@ -822,9 +823,11 @@ footer
 banner
 ***************************************/
 .announcement-container {
+    display: block;
     margin: 0;
 }
 .announcement-banner-header {
+    display: block;
     background-color: rgb(255, 217, 0);
     padding: 10px 0;
     transition: all 0.3s;
