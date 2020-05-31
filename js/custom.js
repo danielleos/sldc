@@ -33,13 +33,13 @@ function showSlides(n) {
 (function($) {
 
   // Add smooth scrolling to all links in navbar
-  $(".navbar a,a.btn-appoint, .quick-info li a, .overlay-detail a").on('click', function(event) {
+  $(".navbar a,a.btn-appoint, .quick-info li a, .overlay-detail a, .back-to-top a").on('click', function(event) {
 
     var hash = this.hash;
     if (hash) {
       event.preventDefault();
       $('html, body').animate({
-        scrollTop: $(hash).offset().top
+        scrollTop: 0
       }, 900, function() {
         window.location.hash = hash;
       });

@@ -819,6 +819,22 @@ footer
     list-style-type: decimal;
 }
 
+.date {
+    text-decoration: underline;
+    text-align: right;
+}
+
+a.covid-link {
+    color: rgb(12, 71, 82);
+    text-decoration: underline;
+}
+
+a.covid-link:hover, a.covid-link:focus, a.covid-link:active {
+    outline: none;
+    color: rgb(2, 24, 27);
+}
+
+
 /***************************************
 banner
 ***************************************/
