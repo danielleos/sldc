@@ -24,7 +24,7 @@
   ======================================================= -->
 </head>
 
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<body id="home" data-spy="scroll" data-target=".navbar" data-offset="60">
   <!--banner-->
   <section id="banner" class="banner">
     <div class="bg-color">
@@ -68,17 +68,24 @@
               <button type="button" class="btn btn-secondary modal-close" data-dismiss="modal">Close</button>
             </div>
             <div class="modal-body covid-modal">
+              <div class="date"><i>31st May 2020</i></div>
               <p>To our patients at Street Lane Dental Centre,</p>
-              <p>Given the unprecedented situation in the UK regarding the rapidly spreading COVID-19 virus, we feel we must act in the best interests of our patients and staff. Following LATEST NHS ENGLAND guidelines, we have been instructed to cease ALL dental care within the practice environment.</p>
-              <p>In the event of a dental emergency, during normal surgery hours please call us at our practice on 0113 2689696 and your call will be answered, for after hours emerencies, RING 111. Please remember 111 is under immense strain at the moment and to <b><u>only call in a severe emergency</u></b>.</p>
-              <p>For patients with non-urgent enquiries please email the practice at <a href="mailto:sldc.leeds@nhs.net" style="color: #000; text-decoration: underline;">sldc.leeds@nhs.net</a>. This mail box will be monitored daily.</p>
-              <p>We feel it is essential that we do our part to reduce the spread of this virus and we will of course
-              keep you updated on our website.</p>
-              <p>We are aiming to carry out telephone triaging 7 days a week starting <u>Sunday 29th March</u>, we will update our opening hours for telephone triaging here on our website.</p>
-              <p>For the time being, if you have appointments booked up to or on the <u>1st June</u> please assume that your appointment has been cancelled. <u>Be assured that you will not lose your registration here if you do not attend for a while</u>. As a dental practice, we are doing everything we possibly can do to remain fit and well so that we are able to work to our usual high standard of dental care for when you return.</p>
-              <p>Please keep safe and take care of you and your family. Thank you for your understanding at this
-              difficult time and we look forward to welcoming you back at Street Lane Dental
-              Centre.</p>
+              <p>We are delighted to advise you that The Chief Dental Officer has recently announced that Dental
+              Practices can reopen from the 8th of June.</p>
+              <p>For a number of weeks, we have been working hard to place additional procedures in place on top of our strict hygiene protocols, to support the safety of our patients and colleagues.</p>
+              <p>Please be aware that we will not be offering all services initially. The guidelines also advise minimising the number of people in the practice to conform to social distancing measures, which means we won’t be able to see as many patients in a single working day as we used to.</p>
+              <p>We have a priority list of patients who contacted us during lockdown with emergencies whom we were
+              unable to help. These patients will be contacted as soon as possible.</p>
+              <p>As the diaries allow, we will then contact patients who are in mid-treatment, followed by patients who had routine check-ups and appointments cancelled.</p>
+              <p>We will be updating you on our new patient journey which will include completing as many forms as
+              possible and payment remotely before you attend the practice to keep contact to a minimum. Please
+              keep checking in on our website to see our updates.</p>
+              <p>Please assume that any dental appointment you have scheduled with us that was arranged prior to the
+              UK lockdown is cancelled for the time being.</p>
+              <p><b><u>Please do not attend the practice without a prior appointment.</u></b></p>
+              <p>If you do need help or advice, please <a class="covid-link" href="#contact" id="contact-link">call or email us</a>.</p>
+              <p>Our team will be working really hard to get back to ‘normal’ as soon as possible, so whilst this is brilliant news, please be patient with us.</p>
+              <p>We hope to see you soon,</p>
               <p><b><span style="font-size: larger;">Joanna O’Sullivan & Rachel Barrett</span></b><br>
               Owners<br>Street Lane Dental Centre</p>
             </div>
@@ -102,9 +109,6 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="overlay-detail text-center">
-      <a href="#about"><i class="fa fa-angle-down"></i></a>
     </div>
   </section>
   <!--/ banner-->
@@ -248,7 +252,7 @@
     </div>
     <div class="col-md-12 back-top-top-container">
       <div class="back-to-top text-center">
-        <a href=""><i class="fa fa-angle-up"></i></a>
+        <a href="#home"><i class="fa fa-angle-up"></i></a>
       </div>
     </div>
   </section>
@@ -1062,7 +1066,7 @@
     </div>
     <div class="col-md-12 back-top-top-container">
       <div class="back-to-top text-center">
-        <a href="" title="Back To Top"><i class="fa fa-angle-up"></i></a>
+        <a href="#home" title="Back To Top"><i class="fa fa-angle-up"></i></a>
       </div>
     </div>
   </section>
@@ -1268,7 +1272,7 @@
     </div>
     <div class="col-md-12 back-top-top-container">
       <div class="back-to-top text-center" id="back-to-top">
-        <a href="" title="Back To Top"><i class="fa fa-angle-up"></i></a>
+        <a href="#home" title="Back To Top"><i class="fa fa-angle-up"></i></a>
       </div>
     </div>
   </section>
@@ -1418,8 +1422,8 @@
       </div>
     </div>
     <div class="col-md-12 back-top-top-container">
-      <div class="back-to-top text-center" id="back-to-top">
-        <a href="" title="Back To Top"><i class="fa fa-angle-up"></i></a>
+      <div class="back-to-top text-center" id="back-to-top-2">
+        <a href="#home" title="Back To Top"><i class="fa fa-angle-up"></i></a>
       </div>
     </div>
   </section>
@@ -1483,6 +1487,9 @@
     $(window).on('load', function () {
       $('#covid-modal').modal('show');
     });
+    $("a#contact-link").click(function () {
+        $('#covid-modal').modal('hide')
+      });
   </script>
   <!--[if lt IE 9]>
   <script>
