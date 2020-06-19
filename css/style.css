@@ -380,8 +380,8 @@ about
 	margin-left: 80px;
 	margin-bottom: 35px;
 }
-.sec-para{
-	padding-bottom: 10px;
+.more-features-box-text-description p {
+    font-size: 1.8rem;
 }
 /***************************************
 doctor team
