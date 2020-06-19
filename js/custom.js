@@ -39,7 +39,7 @@ function showSlides(n) {
     if (hash) {
       event.preventDefault();
       $('html, body').animate({
-        scrollTop: 0
+        scrollTop: $(hash).offset().top
       }, 900, function() {
         window.location.hash = hash;
       });
