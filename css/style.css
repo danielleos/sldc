@@ -573,7 +573,19 @@ footer
 	line-height: 1.2;
 }
 .links-container {
-	margin-top: 50px;
+	margin-top: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.bda-logo {
+	max-width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.bda-logo img {
+	object-fit: scale-down;
 }
 .social-icon li {
 	float: left;
