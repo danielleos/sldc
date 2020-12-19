@@ -29,6 +29,10 @@ function showSlides(n) {
   captionText.innerHTML = dots[slideIndex - 1].alt;
 }
 
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();
+});
+
 
 (function($) {
 
@@ -39,7 +43,7 @@ function showSlides(n) {
     if (hash) {
       event.preventDefault();
       $('html, body').animate({
-        scrollTop: $(hash).offset().top
+        scrollTop: $(hash).offset().top - 90
       }, 900, function() {
         window.location.hash = hash;
       });
@@ -53,7 +57,7 @@ function showSlides(n) {
 
   //jQuery to collapse the navbar on scroll
   $(window).scroll(function() {
-    if ($(".navbar-default").offset().top > 50) {
+    if ($(".navbar-default").offset().top - 90 > 50) {
       $(".navbar-fixed-top").addClass("top-nav-collapse");
     } else {
       $(".navbar-fixed-top").removeClass("top-nav-collapse");

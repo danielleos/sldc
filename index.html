@@ -6,13 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Street Lane Dental Centre | Leeds</title>
   <meta name="description" content="Street Lane Dental Centre Homepage">
-  <meta name="keywords" content="dental practice, dentist, dentistry, medical, doctors">
-  <meta name="cf-2fa-verify" content="4858fa7bbb465c3">
+  <meta name="keywords" content="dental practice, dentist, dentistry, medical, doctors, leeds">
 
   <link rel="shortcut icon" type="image/x-icon" href="img/sldc-favicon.ico">
   <link rel="icon" type="image/x-icon" href="img/sldc-favicon.ico">
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Candal">
-  <link href='https://fonts.googleapis.com/css?family=Allerta' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -31,27 +31,25 @@
     <div class="bg-color">
       <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
-          <div class="col-md-12">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href=""><img src="img/sldc-logo.png"><span>STREET LANE DENTAL CENTRE</span></a>
-            </div>
-            <div class="collapse navbar-collapse navbar-right" id="myNavbar">
-              <ul class="nav navbar-nav">
-                <li class=""><a href="#home">Home</a></li>
-                <li class=""><a href="#about">About</a></li>
-                <li class=""><a href="#hours">Hours</a></li>
-                <li class=""><a href="#team">Team</a></li>
-                <li class=""><a href="#treatments">Treatments & Prices</a></li>
-                <li class=""><a href="#gallery">Gallery</a></li>
-                <li class=""><a href="#reviews">Reviews</a></li>
-                <li class=""><a href="#contact">Contact</a></li>
-              </ul>
-            </div>
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href=""><img src="img/sldc-logo.png"><span>STREET LANE DENTAL CENTRE</span></a>
+          </div>
+          <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li class=""><a href="#home">Home</a></li>
+              <li class=""><a href="#about">About</a></li>
+              <li class=""><a href="#hours">Hours</a></li>
+              <li class=""><a href="#team">Team</a></li>
+              <li class=""><a href="#treatments">Treatments</a></li>
+              <li class=""><a href="#gallery">Gallery</a></li>
+              <li class=""><a href="#reviews">Reviews</a></li>
+              <li class=""><a href="#contact">Contact</a></li>
+            </ul>
           </div>
         </div>
         <div class="announcement-container">
@@ -131,15 +129,17 @@
   <section id="about" class="section-padding">
     <div class="container">
       <div class="row">
-        <div class="col-md-4 col-sm-4">
+        <div class="col-md-4 col-sm-12 about-columns">
           <h2 class="ser-title">About Us</h2>
           <hr class="botm-line">
-          <p>Welcome to Street Lane Dental Centre (Leeds, UK). We are a committed team of dentists, hygiene/therapists, nurses and receptionists dedicated to giving you everything that a modern dental practice can offer. Our aim is to provide exceptional quality, individually tailored dental care to patients in a highly experienced, professional, relaxed and caring environment.</p>
-          <p>Our practice is a member of the British Dental Association’s Good Practice Scheme. This means that we are committed to a standard of good practice set by our professional association,
-            <a href="https://www.bda.org/goodpractice">BDA</a>.</p>
-          <p>All our dentists, hygienists and nurses continually attend educational programmes to keep up to date with the constant changes in modern dentistry.</p>
+          <div class="about-summary">
+            <p>Welcome to Street Lane Dental Centre (Leeds, UK). We are a committed team of dentists, hygiene/therapists, nurses and receptionists dedicated to giving you everything that a modern dental practice can offer. Our aim is to provide exceptional quality, individually tailored dental care to patients in a highly experienced, professional, relaxed and caring environment.</p>
+            <p>Our practice is a member of the British Dental Association’s Good Practice Scheme. This means that we are committed to a standard of good practice set by our professional association,
+              <a href="https://www.bda.org/goodpractice">BDA</a>.</p>
+            <p>All our dentists, hygienists and nurses continually attend educational programmes to keep up to date with the constant changes in modern dentistry.</p>
+          </div>
         </div>
-        <div class="col-md-4 col-sm-4">
+        <div class="col-md-4 col-sm-12 about-columns">
           <div class="service-info">
             <div class="icon">
               <i class="fa fa-hospital"></i>
@@ -148,31 +148,8 @@
               <h4>Appointments</h4>
               <p>We take great pride in the quality of our dentistry and want to make your visit to us a pleasant experience. Our aim is to achieve good oral health for you and your family through preventative dentistry.</p>
               <p>By taking the time to provide you with regular dental advice, we can help you understand how to take better care of your teeth yourself.</p>
-              <br>
             </div>
           </div>
-          <div class="service-info">
-            <div class="icon">
-              <i class="fas fa-tooth"></i>
-            </div>
-            <div class="icon-info">
-              <h4>NHS & Private</h4>
-              <p>We offer both NHS and Private dentistry for all, including children and have disabled access to the practice.</p>
-            </div>
-          </div>
-          <div class="service-info">
-            <div class="icon">
-              <i class="fa fa-medkit"></i>
-            </div>
-            <div class="icon-info">
-              <h4>Sterilisation</h4>
-              <p>In the interest of both patients and staff, we follow HTM0105 standards with respect to the sterilisation of our
-                equipment.</p>
-              <br>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-4">
           <div class="service-info bullet-points">
             <div class="icon">
               <i class="fa fa-universal-access"></i>
@@ -186,6 +163,27 @@
                   <li>Sensory Loss</li>
                 </ul>
               </p>
+            </div>
+          </div>
+          <div class="service-info">
+            <div class="icon">
+              <i class="fa fa-medkit"></i>
+            </div>
+            <div class="icon-info">
+              <h4>Sterilisation</h4>
+              <p>In the interest of both patients and staff, we follow HTM0105 standards with respect to the sterilisation of our
+                equipment.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12 about-columns">
+          <div class="service-info">
+            <div class="icon">
+              <i class="fas fa-tooth"></i>
+            </div>
+            <div class="icon-info">
+              <h4>NHS & Private</h4>
+              <p>We offer both NHS and Private dentistry for all, including children and have disabled access to the practice.</p>
             </div>
           </div>
           <div class="service-info">
@@ -213,8 +211,8 @@
             <hr class="botm-line">
           </div>
         </div>
-        <div class="col-md-12 col-sm-12 col-xs-12">
-          <div style="visibility: visible;" class="col-sm-9 more-features-box">
+        <div class="col-md-4 col-sm-12 col-xs-12">
+          <div class="more-features-box">
             <div class="more-features-box-text">
               <div class="more-features-box-text-icon"> <i class="fa fa-angle-right" aria-hidden="true"></i> </div>
               <div class="more-features-box-text-description">
@@ -225,8 +223,8 @@
             </div>
           </div>
         </div>
-        <div class="col-md-12 col-sm-12 col-xs-12">
-          <div style="visibility: visible;" class="col-sm-9 more-features-box">
+        <div class="col-md-4 col-sm-12 col-xs-12">
+          <div class="more-features-box">
             <div class="more-features-box-text">
               <div class="more-features-box-text-icon"> <i class="fa fa-angle-right" aria-hidden="true"></i> </div>
               <div class="more-features-box-text-description">
@@ -237,8 +235,8 @@
             </div>
           </div>
         </div>
-        <div class="col-md-12 col-sm-12 col-xs-12">
-          <div style="visibility: visible;" class="col-sm-9 more-features-box">
+        <div class="col-md-4 col-sm-12 col-xs-12">
+          <div class="more-features-box">
             <div class="more-features-box-text">
               <div class="more-features-box-text-icon"> <i class="fa fa-angle-right" aria-hidden="true"></i> </div>
               <div class="more-features-box-text-description">
@@ -251,7 +249,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-12 back-top-top-container">
+    <div class="col-md-12 back-to-top-container">
       <div class="back-to-top text-center">
         <a href="#home"><i class="fa fa-angle-up"></i></a>
       </div>
@@ -268,8 +266,8 @@
           <hr class="botm-line">
         </div>
         <!-- first row -->
-        <div class="col-md-12 people">
-          <div class="col-md-3 col-sm-3 col-xs-6">
+        <div class="people">
+          <div class="col-sm-4 col-xs-12">
             <div class="thumbnail">
               <img src="img/joanna.png" alt="Dr Joanna O'Sullivan" class="team-img">
               <div class="caption">
@@ -304,7 +302,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-sm-3 col-xs-6">
+          <div class="col-sm-4 col-xs-12">
             <div class="thumbnail">
               <img src="img/rachel.png" alt="Dr Rachel Barrett" class="team-img">
               <div class="caption">
@@ -339,7 +337,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-sm-3 col-xs-6">
+          <div class="col-sm-4 col-xs-12">
             <div class="thumbnail">
               <img src="img/jaime.png" alt="Dr Jaime Hobman" class="team-img">
               <div class="caption">
@@ -374,7 +372,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-sm-3 col-xs-6">
+          <div class="col-sm-4 col-xs-12">
             <div class="thumbnail">
               <img src="img/stephanie.png" alt="Dr Stephanie Blain" class="team-img">
               <div class="caption">
@@ -407,7 +405,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-sm-3 col-xs-6">
+          <div class="col-sm-4 col-xs-12">
             <div class="thumbnail">
               <img src="img/sarah.png" alt="Dr Sarah Adjepong" class="team-img">
               <div class="caption">
@@ -441,41 +439,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-sm-3 col-xs-6">
-            <div class="thumbnail">
-              <img src="img/jane.png" alt="Dr Jane Moore" class="team-img">
-              <div class="caption">
-                <h3>Jane Moore</h3>
-                <p>Dentist | GDC 51237<br>BDS Sheff</p>
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary modal-button" data-toggle="modal" data-target="#about-jane-modal">
-                  About Jane
-                </button>
-                <!-- Modal -->
-                <div class="modal fade" id="about-jane-modal" tabindex="-1" role="dialog" aria-labelledby="modal-title" aria-hidden="true">
-                  <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h4 class="modal-title" id="modal-title">About Jane Moore</h4>
-                      </div>
-                      <div class="modal-body about-jane-modal">
-                        <img src="img/jane.png" alt="Jane Moore" class="modal-img">
-                        <p>Jane recently joined Street Lane Dental Centre and has an interest in treating nervous , anxious and phobic patients.
-                        Jane has a diploma in sedation and is happy to accept referrals to treat patients using IV sedation.</p>
-                        <p>Jane has a dental political interest and has represented her profession for many years at both local and national
-                        level.</p>
-                      </div>
-                      <div class="modal-footer treatment-modal">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End of modal -->
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-3 col-xs-6">
+          <div class="col-sm-4 col-xs-12">
             <div class="thumbnail">
               <img src="img/harmandeep.png" alt="Harmandeep Tatla" class="team-img">
               <div class="caption">
@@ -508,7 +472,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-sm-3 col-xs-6">
+          <div class="col-sm-4 col-xs-12">
             <div class="thumbnail">
               <img src="img/sarah-forbes.png" alt="Sarah Forbes" class="team-img">
               <div class="caption">
@@ -546,7 +510,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-sm-3 col-xs-6">
+          <div class="col-sm-4 col-xs-12">
             <div class="thumbnail">
               <img src="img/temi.png" alt="Temilade Ajimoko" class="team-img">
               <div class="caption">
@@ -580,7 +544,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-sm-3 col-xs-6">
+          <div class="col-sm-4 col-xs-12">
             <div class="thumbnail">
               <img src="img/glesni.png" alt="Glesni Hitchens" class="team-img">
               <div class="caption">
@@ -615,38 +579,6 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-sm-3 col-xs-6">
-            <div class="thumbnail">
-              <img src="img/blank.png" alt="Lorna Gladwin" class="team-img">
-              <div class="caption">
-                <h3>Lorna Gladwin</h3>
-                <p>FD/Dentist | GDC 284537<br>BDS Sheff</p>
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary modal-button" data-toggle="modal" data-target="#about-lorna-modal">
-                  About Lorna
-                </button>
-                <!-- Modal -->
-                <div class="modal fade" id="about-lorna-modal" tabindex="-1" role="dialog" aria-labelledby="modal-title"
-                  aria-hidden="true">
-                  <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h4 class="modal-title" id="modal-title">About Lorna Gladwin</h4>
-                      </div>
-                      <div class="modal-body about-lorna-modal">
-                        <img src="img/blank.png" alt="Lorna Gladwin" class="modal-img">
-                        <p>Profile coming soon.</p>
-                      </div>
-                      <div class="modal-footer treatment-modal">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End of modal -->
-              </div>
-            </div>
-          </div>
         </div>
         <!-- Hygienists -->
         <div class="col-md-12">
@@ -654,8 +586,8 @@
           <hr class="botm-line">
         </div>
         <!-- third row -->
-        <div class="col-md-12 people">
-          <div class="col-md-3 col-sm-3 col-xs-6">
+        <div class="people">
+          <div class="col-sm-4 col-xs-12">
             <div class="thumbnail">
               <img src="img/michelle.png" alt="Ms Michelle Batemen" class="team-img">
               <div class="caption">
@@ -687,7 +619,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-sm-3 col-xs-6">
+          <div class="col-sm-4 col-xs-12">
             <div class="thumbnail">
               <img src="img/blank.png" alt="Charlotte Hull" class="team-img">
               <div class="caption">
@@ -720,7 +652,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-sm-3 col-xs-6">
+          <div class="col-sm-4 col-xs-12">
             <div class="thumbnail">
               <img src="img/kirstie.png" alt="Kirstie Whittingham" class="team-img">
               <div class="caption">
@@ -760,8 +692,8 @@
           <hr class="botm-line">
         </div>
         <!-- third row -->
-        <div class="col-md-12 people">
-          <div class="col-md-3 col-sm-3 col-xs-6">
+        <div class="people">
+          <div class="col-sm-4 col-xs-12">
             <div class="thumbnail">
               <img src="img/amanda.png" alt="Ms Amanda Shepherd" class="team-img">
               <div class="caption">
@@ -794,39 +726,6 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-sm-3 col-xs-6">
-            <div class="thumbnail">
-              <img src="img/lorraine.png" alt="Ms Lorraine Pearce Wright" class="team-img">
-              <div class="caption">
-                <h3>Lorraine Pearce Wright</h3>
-                <p>Receptionist</p>
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary modal-button" data-toggle="modal" data-target="#about-lorraine-modal">
-                  About Lorraine
-                </button>
-                <!-- Modal -->
-                <div class="modal fade" id="about-lorraine-modal" tabindex="-1" role="dialog" aria-labelledby="modal-title" aria-hidden="true">
-                  <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h4 class="modal-title" id="modal-title">About Lorraine Pearce Wright</h4>
-                      </div>
-                      <div class="modal-body about-lorraine-modal">
-                        <img src="img/lorraine.png" alt="Ms Lorraine Pearce Wright" class="modal-img">
-                        <p>Lorraine joined the practice in 2010 making her one of our longest standing team members.</p>
-                        <p>Working solely on reception, Lorraine is usually the first port of call before seeing your dentist.
-                        Lorraine maintains the smooth running of reception along with daily administration duties.</p>
-                      </div>
-                      <div class="modal-footer treatment-modal">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End of modal -->
-              </div>
-            </div>
-          </div>
         </div>
         <!-- Nurses -->
         <div class="col-md-12">
@@ -834,39 +733,8 @@
           <hr class="botm-line">
         </div>
         <!-- third row -->
-        <div class="col-md-12 people">
-          <div class="col-md-3 col-sm-3 col-xs-6">
-            <div class="thumbnail">
-              <img src="img/vicky.png" alt="Ms Vicky Elliot" class="team-img">
-              <div class="caption">
-                <h3>Vicky Mulhern</h3>
-                <p>Head Nurse | GDC 130153</p>
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary modal-button" data-toggle="modal" data-target="#about-vicky-modal">
-                  About Vicky
-                </button>
-                <!-- Modal -->
-                <div class="modal fade" id="about-vicky-modal" tabindex="-1" role="dialog" aria-labelledby="modal-title" aria-hidden="true">
-                  <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h4 class="modal-title" id="modal-title">About Vicky Mulhern</h4>
-                      </div>
-                      <div class="modal-body about-vicky-modal">
-                        <img src="img/vicky.png" alt="Ms Vicky Mulhern" class="modal-img">
-                        <p>Vicky started working at Street Lane Dental Centre in 2004 as a trainee dental nurse and qualified in 2006 with a NVQ Level 3 in Dental Nursing and has worked with the practice ever since with a stop gap to have her 2 children. Vicky enjoys all aspects of nursing and enjoys working on reception when needed.</p>
-                      </div>
-                      <div class="modal-footer treatment-modal">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End of modal -->
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-3 col-xs-6">
+        <div class="people">
+          <div class="col-sm-4 col-xs-12">
             <div class="thumbnail">
               <img src="img/brenda.png" alt="Ms Brenda Woo" class="team-img">
               <div class="caption">
@@ -899,7 +767,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-sm-3 col-xs-6">
+          <div class="col-sm-4 col-xs-12">
             <div class="thumbnail">
               <img src="img/laura.png" alt="Ms Laura Capitano" class="team-img">
               <div class="caption">
@@ -932,7 +800,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-sm-3 col-xs-6">
+          <div class="col-sm-4 col-xs-12">
             <div class="thumbnail">
               <img src="img/hannah.png" alt="Ms Hannah Walton" class="team-img">
               <div class="caption">
@@ -965,7 +833,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-sm-3 col-xs-6">
+          <div class="col-sm-4 col-xs-12">
             <div class="thumbnail">
               <img src="img/katy.png" alt="Ms Katy Davies" class="team-img">
               <div class="caption">
@@ -998,7 +866,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-sm-3 col-xs-6">
+          <div class="col-sm-4 col-xs-12">
             <div class="thumbnail">
               <img src="img/tracey.png" alt="Ms Tracey Batley" class="team-img">
               <div class="caption">
@@ -1030,7 +898,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-sm-3 col-xs-6">
+          <div class="col-sm-4 col-xs-12">
             <div class="thumbnail">
               <img src="img/ausia.png" alt="Ausia Hussain" class="team-img">
               <div class="caption">
@@ -1065,7 +933,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-12 back-top-top-container">
+    <div class="col-md-12 back-to-top-container">
       <div class="back-to-top text-center">
         <a href="#home" title="Back To Top"><i class="fa fa-angle-up"></i></a>
       </div>
@@ -1077,16 +945,15 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h2 class="ser-title">Treatments & Pricing</h2>
+          <h2 class="ser-title">Treatments</h2>
           <hr class="botm-line">
         </div>
         <div class="schedule-tab prices">
-          <div class="col-md-12">
+          <div class="treatment-box">
             <div class="mt-boxy-color"></div>
             <div class="medi-info-no-line">
-              <h3>Our Services</h3>
-              <p>We offer the full range of treatments including Sedation, Cosmetic Dentistry, Whitening, Bridges, Crowns & Veneers, Preventative Care and all types of denture work.</p>
-              <p>We particularly welcome anxious or phobic patients and take a sympathetic approach. Sedation is available if necessary on a private treatment basis. We have the services of hygienists and oral health educators.</p>
+              <h2 class="white treatment-subheading">Our Services</h2>
+              <p>We offer the full range of treatments including Cosmetic Dentistry, Whitening, Bridges, Crowns & Veneers, Preventative Care and all types of denture work. We particularly welcome anxious or phobic patients and take a sympathetic approach. We have the services of hygienists and oral health educators.</p>
               <br>
               <!-- Button trigger modal -->
               <button type="button" class="btn btn-primary modal-button" data-toggle="modal" data-target="#treatments-modal">
@@ -1106,24 +973,20 @@
                       <h4>General Dentistry</h4>
                       <p>We offer the highest standard of routine dental care and everyone here at Street Lane Dental Centre take pride in our preventative dentistry. We genuinely believe that coming to visit the dentist can be a pleasant experience and we are confident of putting the most anxious of patients at ease.</p><br>
                       <h4>Hygienists</h4>
-                      <p>Our dental Hygienists are available for preventative treatment and oral hygiene advice. We offer a wide range of oral hygiene products at the practice.Hygienist appointments are only available on a private basis.</p><br>
+                      <p>Our dental Hygienists are available for preventative treatment and oral hygiene advice. We offer a wide range of oral hygiene products at the practice. Hygienist appointments are only available on a private basis.</p><br>
                       <h4>Orthodontics</h4>
                       <p>Children requiring orthodontic treatment will be referred to an orthodontic specialist practice under NHS arrangements. Adults requiring orthodontic treatment can be referred on a private basis.</p><br>
                       <h4>Invisalign Go</h4>
                       <p>The Invisalign System uses a series of clear, removable plastic trays (aligners) that fit over teeth. Aligners are custom-made and changed every 2 weeks to gradually move teeth into the desired position.</p>
                       <a href="invisalign.html">Click to read more about Invisalign Go</a><br><br>
                       <h4>Endodontics</h4>
-                      <p>Following his long standing interest in this speciality, Dr David Blaen gained his MSc in Endodontology in 2012. He shares his time between us and an Endodontic Referral Practice in Manchester. David also treats patients on referrals from colleagues within our practice as well as from the local area.</p>
                       <p>We use <b><u>modern techniques and equipment</u></b> such as a Dental Operating Microscope, which enables us to save many teeth that would otherwise have been lost. As important as technology is, looking after the patient with care and consideration will always remain our primary focus.</p><br>
                       <h4>Childrens' Appointments</h4>
                       <p>We ask parents to bring their children with them so that we can see them regularly to help them grow up free from dental disease. <b><u>All children under the age of 16 must be accompanied by an adult</u></b>.</p><br>
                       <h4>Dental Implants</h4>
                       <p>Dental Implants are the most advanced dental procedure in mouth rehabilitation, so if you’re suffering from failing teeth or tooth loss, this could be the permanent solution you’ve been looking for.</p>
                       <p>Dental implants are the closest thing to having your permanent teeth back; in fact, they're stronger than natural teeth and look as real as them too. Dental implants are small titanium roots that are placed into the jaw bone in order to replace damaged or missing natural teeth.</p>
-                      <p>Dental implants were discovered many years ago and now becoming more popular as more and more people find out that dental implant treatment is predictable and safe Dr Rachel Barrett is our Implantologist at the practice.</p><br>
-                      <h4>Sedation</h4>
-                      <p>Sedation dentistry is a safe and easy way for patients to undergo a variety of dental procedures without fear. The process enables fearful patients to relax and receive the treatments they need in order to maintain sound oral health.</p>
-                      <a href="sldc-iv-sedation.pdf">Click to read more about sedation</a><br><br>
+                      <p>Dental implants were discovered many years ago and now becoming more popular as more and more people find out that dental implant treatment is predictable and safe. Dr Rachel Barrett is our Implantologist at the practice.</p><br>
                       <h4>Facial Aesthetics</h4>
                       <p>Dr Stephanie Blain and Dr Jaime Hobman carry out all the facial aesthetic treatments at SLDC . We offer a variety of facial aesthetic treatments but every treatment is tailored to each individual patient. Our dentists pride themselves on achieving a natural look to make you feel refreshed & confident. Being experienced dentists gives them extensive knowledge of the facial form & underlying anatomy.</p>
                       <p>They have undergone <b><u>advanced training</u></b> & only use well-researched, clinically-approved products. Please book in for a detailed consultation where options & prices will be discussed.</p>
@@ -1144,125 +1007,274 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 col-sm-4">
+          <div class="treatment-box">
             <div class="medi-info-no-line">
-              <h3>NHS Treatment</h3>
-              <table>
-                <tr>
-                  <td><u>Band 1</u><br>Routine Treatment<br>(Examination, Diagnostic & Preventative)</td>
-                  <td>£22.70</td>
-                </tr>
-                <tr>
-                  <td><u>Band 2</u><br>Routine Treatment<br>+ Additional Treatment such as Fillings, Root Canal, or Extractions</td>
-                  <td>£62.10</td>
-                </tr>
-                <tr>
-                  <td><u>Band 3</u><br>Routine Treatment<br>+ Extensive procedures such as Crowns, Dentures or Bridges</td>
-                  <td>£269.30</td>
-                </tr>
-                <tr>
-                  <td>Urgent Appointments</td>
-                  <td>£22.70</td>
-                </tr>
-              </table>
+              <h2 class="white treatment-subheading">NHS Treatment</h2>
+              <div class="price-table-flex-container">
+                <div class="price-table">
+                  <table>
+                    <thead><tr><td colspan="2"></td></tr></thead>
+                    <tr>
+                      <td>Band 1 <a data-toggle="tooltip" data-placement="auto right" title="Examination, diagnostic and preventative" trigger="hover focus click"><i class="fa fa-info-circle table-icon"></i></a>
+                      <td>£23.80</td>
+                    </tr>
+                    <tr>
+                      <td>Band 2 <a data-toggle="tooltip" data-placement="auto right" title="Includes Band 1 treatment plus additional procedures such as fillings, root canal, or extractions" trigger="hover focus click"><i class="fa fa-info-circle table-icon"></i></a></td>
+                      <td>£65.20</td>
+                    </tr>
+                    <tr>
+                      <td>Band 3 <a data-toggle="tooltip" data-placement="auto right" title="Includes Band 2 treatment plus extensive procedures such as crowns, dentures or bridges" trigger="hover focus click"><i class="fa fa-info-circle table-icon"></i></a></td>
+                      <td>£282.80</td>
+                    </tr>
+                    <tr>
+                      <td>Urgent Appointments</td>
+                      <td>£23.80</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="col-md-8 col-sm-4">
-            <div class="medi-info-no-line" id="table-flow">
-              <h3>Private Treatment</h3>
-              <table>
-                <tbody>
-                  <tr>
-                    <td>New Patient Examination</td>
-                    <td>£75.00</td>
-                  </tr>
-                  <tr>
-                    <td>Routine Treatment</td>
-                    <td>£65.00</td>
-                  </tr>
-                  <tr>
-                    <td>Non-registered Emergency</td>
-                    <td>£70.00</td>
-                  </tr>
-                  <tr>
-                    <td>Silver (Amalgam) Fillings</td>
-                    <td>From £75.00</td>
-                  </tr>
-                  <tr>
-                    <td>White (Composite) Fillings</td>
-                    <td>From £98.00</td>
-                  </tr>
-                  <tr>
-                    <td>Root Canal Fillings</td>
-                    <td>From £250.00</td>
-                  </tr>
-                  <tr>
-                    <td>Extractions</td>
-                    <td>From £115.00</td>
-                  </tr>
-                  <tr>
-                    <td>Crowns</td>
-                    <td>From £510.00</td>
-                  </tr>
-                  <tr>
-                    <td>Veneers</td>
-                    <td>From £450.00</td>
-                  </tr>
-                  <tr>
-                    <td>Bridges</td>
-                    <td>From £495.00</td>
-                  </tr>
-                  <tr>
-                    <td>Dentures (Acrylic)</td>
-                    <td>From £550.00</td>
-                  </tr>
-                  <tr>
-                    <td>Dentures (Metal)</td>
-                    <td>From £720.00</td>
-                  </tr>
-                  <tr>
-                    <td>Dental Implants (Assessment)</td>
-                    <td>£125.00</td>
-                  </tr>
-                  <tr>
-                    <td>Dental Implants (Per Implant)</td>
-                    <td>£2,200.00</td>
-                  </tr>
-                  <tr>
-                    <td>Sedation (Assessment)</td>
-                    <td>£65.00</td>
-                  </tr>
-                  <tr>
-                    <td>Sedation (Per Session)</td>
-                    <td>£250.00</td>
-                  </tr>
-                  <tr>
-                    <td>Hygiene</td>
-                    <td>From £38.00</td>
-                  </tr>
-                  <tr>
-                    <td>Tooth Whitening (Bleaching)</td>
-                    <td>£295.00</td>
-                  </tr>
-                  <tr>
-                    <td>Botox</td>
-                    <td>From £195.00</td>
-                  </tr>
-                  <tr>
-                    <td>Fillers</td>
-                    <td>From £250.00</td>
-                  </tr>
-                  <tr>
-                    <td>Invisalign GO</td>
-                    <td>From £2,700.00</td>
-                  </tr>
-                </tbody>
-              </table>
+          <div class="treatment-box">
+            <div class="medi-info-no-line">
+              <h2 class="white treatment-subheading">Private Treatment</h2>
+              <!-- PRICING TABLES IN FLEXBOX -->
+              <div class="price-table-flex-container">
+                <!-- LEFT HAND SIDE PRIVATE TREATMENT COLUMN (DESKTOP ONLY) -->
+                <div class="price-table-column left-table">
+                  <div class="price-table">
+                    <table>
+                      <tbody>
+                        <thead>
+                          <tr>
+                            <td colspan="2">EXAMINATIONS</td>
+                          </tr>
+                        </thead>
+                        <tr>
+                          <td>New Patient Exam</td>
+                          <td>£85</td>
+                        </tr>
+                        <tr>
+                          <td>Routine Exam</td>
+                          <td>£75</td>
+                        </tr>
+                        <tr>
+                          <td>Non-registered Emergency</td>
+                          <td>£85</td>
+                        </tr>
+                        <tr>
+                          <td>Full Case Assessment</td>
+                          <td>£110</td>
+                        </tr>
+                        <tr>
+                          <td>Children</td>
+                          <td>£35</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="price-table">
+                    <table>
+                      <tbody>
+                        <thead>
+                          <tr>
+                            <td colspan="2">FILLINGS</td>
+                          </tr>
+                        </thead>
+                        <tr>
+                          <td>Silver (Amalgam) Fillings</td>
+                          <td>From £95</td>
+                        </tr>
+                        <tr>
+                          <td>White (Composite) Fillings</td>
+                          <td>£120</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="price-table">
+                    <table>
+                      <tbody>
+                        <thead>
+                          <tr>
+                            <td colspan="2">ROOT TREATMENT</td>
+                          </tr>
+                        </thead>
+                        <tr>
+                          <td>Incisor/Canine</td>
+                          <td>£250</td>
+                        </tr>
+                        <tr>
+                          <td>Premolar</td>
+                          <td>£300</td>
+                        </tr>
+                        <tr>
+                          <td>Molar</td>
+                          <td>£350</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="price-table">
+                    <table>
+                      <tbody>
+                        <thead>
+                          <tr>
+                            <td colspan="2">SURGICAL</td>
+                          </tr>
+                        </thead>
+                        <tr>
+                          <td>Extractions</td>
+                          <td>£140</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="price-table">
+                    <table>
+                      <tbody>
+                        <thead>
+                          <tr>
+                            <td colspan="2">CROWNS & VENEERS</td>
+                          </tr>
+                        </thead>
+                        <tr>
+                          <td>Crowns (varies with materials)</td>
+                          <td>£510 - £585</td>
+                        </tr>
+                        <tr>
+                          <td>Porcelain Veneers</td>
+                          <td>From £450</td>
+                        </tr>
+                        <tr>
+                          <td>Refix</td>
+                          <td>£50</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <!-- RIGHT HAND SIDE PRIVATE TREATMENT COLUMN (DESKTOP ONLY) -->
+                <div class="price-table-column right-table">
+                  <div class="price-table">
+                    <table>
+                      <tbody>
+                        <thead>
+                          <tr>
+                            <td colspan="2">BRIDGES</td>
+                          </tr>
+                        </thead>
+                        <tr>
+                          <td>Bridges</td>
+                          <td>From £495</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="price-table">
+                    <table>
+                      <tbody>
+                        <thead>
+                          <tr>
+                            <td colspan="2">DENTURES</td>
+                          </tr>
+                        </thead>
+                        <tr>
+                          <td>Acrylic - Full Upper</td>
+                          <td>£550</td>
+                        </tr>
+                        <tr>
+                          <td>Acrylic - Partial (Simple)</td>
+                          <td>£450</td>
+                        </tr>
+                        <tr>
+                          <td>Acrylic - Partial (Complex)</td>
+                          <td>£570</td>
+                        </tr>
+                        <tr>
+                          <td>Metal-based</td>
+                          <td>From £730</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="price-table">
+                    <table>
+                      <tbody>
+                        <thead>
+                          <tr>
+                            <td colspan="2">HYGIENE</td>
+                          </tr>
+                        </thead>
+                        <tr>
+                          <td>20-minute session</td>
+                          <td>£48</td>
+                        </tr>
+                        <tr>
+                          <td>30-minute session</td>
+                          <td>£62</td>
+                        </tr>
+                        <tr>
+                          <td>40-minute session</td>
+                          <td>£79</td>
+                        </tr>
+                        <tr>
+                          <td>Air Polish</td>
+                          <td>£35</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="price-table">
+                    <table>
+                      <tbody>
+                        <thead>
+                          <tr>
+                            <td colspan="2">BLEACHING
+                            <a data-toggle="tooltip" data-placement="auto right" title="Includes the creation of trays" trigger="hover focus click"> <i class="fa fa-info-circle table-icon"></i></a>
+                            </td>
+                          </tr>
+                        </thead>
+                        <tr>
+                          <td>Two arches (Both upper & lower teeth)</td>
+                          <td>£295</td>
+                        </tr>
+                        <tr>
+                          <td>One arch (Either upper or lower teeth)</td>
+                          <td>150</td>
+                        </tr>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="price-table">
+                    <table>
+                      <tbody>
+                        <thead>
+                          <tr>
+                            <td colspan="2">IMPLANTS
+                            </td>
+                          </tr>
+                        </thead>
+                        <tr>
+                          <td>Assessment</td>
+                          <td>£125</td>
+                        </tr>
+                        <tr>
+                          <td>Implant</td>
+                          <td>£2,200 (per implant)</td>
+                        </tr>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="col-md-12">
+          <div class="treatment-box">
             <div class="medi-info-no-line">
-              <h3>Payment</h3>
+              <h2 class="white treatment-subheading">Accepted Payment Methods</h2>
               <p>You can pay cash or by credit/debit card including Visa, MasterCard & Maestro. Unfortunately, we do not accept American Express. Denplan monthly payment schemes are available. If you are a member of Simply Health, or a private dental scheme, you may be able to claim reimbursements of dental fees.</p>
               <p>You may qualify for free treatment under the NHS, so we will always endeavour to point this out to you if applicable.</p>
               <p>If you have any questions, please speak to a member of our team for more information.</p>
@@ -1271,7 +1283,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-12 back-top-top-container">
+    <div class="col-md-12 back-to-top-container">
       <div class="back-to-top text-center" id="back-to-top">
         <a href="#home" title="Back To Top"><i class="fa fa-angle-up"></i></a>
       </div>
@@ -1364,7 +1376,7 @@
         <div class="col-md-4 col-sm-4">
           <div class="testi-details">
             <!-- Paragraph -->
-            <p>After looking for a dentist for a long time, which I could trust and felt confortable with, I finally found Street Lane Dental Centre. As I am, to say the least, terrified and nervous. All the staff are friendly and professional, made me feel at ease and comfortable.<br><br>I have had many treatments there now and have recommended them to many friends and family.</p>
+            <p>After looking for a dentist for a long time, which I could trust and felt comfortable with, I finally found Street Lane Dental Centre. As I am, to say the least, terrified and nervous. All the staff are friendly and professional, made me feel at ease and comfortable.<br><br>I have had many treatments there now and have recommended them to many friends and family.</p>
           </div>
           <div class="testi-info">
             <!-- User Image -->
@@ -1413,16 +1425,28 @@
         <div class="col-md-6 col-sm-4">
           <h2 class="ser-title">Contact us</h2>
           <hr class="botm-line">
-          <div class="space"></div>
-          <p><i class="fa fa-map-marker-alt fa-fw pull-left fa-2x"></i>Street Lane Dental Centre, 457 Street Lane,<br>Leeds, West Yorkshire, LS17 6HQ</p><br>
-          <div class="space"></div>
-          <p><i class="fa fa-envelope fa-fw pull-left fa-2x"></i><a href="mailto:info@streetlane-dental.co.uk">info@streetlane-dental.co.uk</a></p><br><br>
-          <div class="space"></div>
-          <p><i class="fa fa-phone fa-fw pull-left fa-2x"></i>0113 2689 696</p>
+          <div class="contact-group-container">
+            <div class="contact-group">
+              <i class="fa fa-map-marker-alt fa-fw pull-left fa-2x"></i>
+              Street Lane Dental Centre, 457 Street Lane,<br>Leeds, West Yorkshire, LS17 6HQ
+            </div>
+          </div>
+          <div class="contact-group-container">
+            <div class="contact-group">
+              <i class="fa fa-envelope fa-fw pull-left fa-2x"></i>
+              <a href="mailto:info@streetlane-dental.co.uk">info@streetlane-dental.co.uk</a>
+            </div>
+          </div>
+          <div class="contact-group-container">
+            <div class="contact-group">
+              <i class="fa fa-phone fa-fw pull-left fa-2x"></i>
+              0113 2689 696
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="col-md-12 back-top-top-container">
+    <div class="col-md-12 back-to-top-container">
       <div class="back-to-top text-center" id="back-to-top-2">
         <a href="#home" title="Back To Top"><i class="fa fa-angle-up"></i></a>
       </div>
@@ -1433,9 +1457,9 @@
   <footer id="footer">
     <div class="top-footer">
       <div class="container">
-        <div class="row links-container">
-          <div class="col-md-6">
-            <h2 class="white links-title">Useful Links</h2>
+        <div class="links-container">
+          <div class="col-md-6 footer-column">
+            <h3 class="white links-title">Useful Links</h3>
             <ul class="quick-info links">
               <li><a href="/sldc-data-protection-privacy-notice.pdf">Patient Data Privacy Notice</a></li>
               <li><a href="https://www.gdc-uk.org/">General Dental Council (GDC)</a></li>
@@ -1444,7 +1468,7 @@
               <li><a href="https://www.nhs.uk/Services/dentists/Overview/DefaultView.aspx?id=24771">NHS Choices</a></li>
             </ul>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 footer-column">
             <div class="bda-logo">
               <img src="img/bda-logo.png">
             </div>
